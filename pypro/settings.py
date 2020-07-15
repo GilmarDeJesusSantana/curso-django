@@ -34,6 +34,7 @@ DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
+AUTH_USER_MODEL = 'base.User'
 # Application definition
 
 INSTALLED_APPS = [
@@ -88,7 +89,9 @@ if DEBUG:
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 default_db_url = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
+
 parse_database = partial(dj_database_url.parse, conn_max_age=600)
+
 DATABASES = {
     'default': config('DATABASE_URL', default=default_db_url, cast=parse_database)
 }
