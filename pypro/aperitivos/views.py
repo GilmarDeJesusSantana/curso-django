@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from pypro.aperitivos.models import Video
 
+
 videos = [
     Video(slug='motivacao', titulo='Video Aperitivo: Motivação', vimeo_id='439772041'),
     Video(slug='update', titulo='Atualização do Sistema Operacional', vimeo_id='440417149'),
