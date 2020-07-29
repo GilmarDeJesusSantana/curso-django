@@ -1,8 +1,10 @@
 import pytest
 from django.urls import reverse
+
 from model_mommy import mommy
 
 from pypro.aperitivos.models import Video
+
 from pypro.django_assertions import assert_contains
 
 
@@ -29,3 +31,4 @@ def test_link_video(resp, videos):
     for video in videos:
         video_link = reverse('aperitivos:video', args=(video.slug,))
         assert_contains(resp, f'href="{video_link}"')
+
