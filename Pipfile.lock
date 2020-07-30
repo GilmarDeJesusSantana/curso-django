@@ -36,6 +36,7 @@
             "hashes": [
                 "sha256:2ce62c4e4c98aa73f1b099d3e82e79f797ce5b483c97434543c59de5fb88a872",
                 "sha256:71dc5ef3c43cf5cc62904e90805c6c41d9f850d72af12abb4cd6f3bbb7d8d1c9"
+
             ],
             "version": "==1.14.31"
         },
@@ -45,6 +46,7 @@
                 "sha256:f20d1659594e23772d65caccabae606e7094440a00b7e285ce5826ec302fdfb4"
             ],
             "version": "==1.17.31"
+
         },
         "certifi": {
             "hashes": [
@@ -387,6 +389,7 @@
             ],
             "index": "pypi",
             "version": "==3.0.8"
+
         },
         "flake8": {
             "hashes": [
