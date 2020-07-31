@@ -31,4 +31,3 @@ def test_link_video(resp, videos):
     for video in videos:
         video_link = reverse('aperitivos:video', args=(video.slug,))
         assert_contains(resp, f'href="{video_link}"')
-
