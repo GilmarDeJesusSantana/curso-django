@@ -148,11 +148,8 @@
             "version": "==1.0.0"
         },
         "prompt-toolkit": {
-            "hashes": [
-                "sha256:4cea7d09e46723885cb8bc54678175453e5071e9449821dce6f017b1d1fbfc1a",
-                "sha256:9397a7162cf45449147ad6042fa37983a081b8a73363a5253dd4072666333137"
-            ],
-            "version": "==3.0.17"
+            "hashes": [],
+            "version": "==3.0.30"
         },
         "psycopg2-binary": {
             "hashes": [
